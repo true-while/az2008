@@ -33,7 +33,9 @@ permissions:
   contents: read
 
 jobs:
-  build:
+  dev:
+    environment: Development  
+    
     runs-on: ubuntu-latest
 
     steps:
